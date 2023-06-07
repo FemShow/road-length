@@ -1,0 +1,235 @@
+ONS Area Code,Region,Road Type,Road Length
+E12000001,North East,trunk-motorways,35
+E12000002,North West,trunk-motorways,394
+E12000003,Yorkshire and the Humber,trunk-motorways,274
+E12000004,East Midlands,trunk-motorways,124
+E12000005,West Midlands,trunk-motorways,274
+E12000006,East of England,trunk-motorways,165
+E12000007,London,trunk-motorways,37
+E12000008,South East,trunk-motorways,404
+E12000009,South West,trunk-motorways,204
+E92000001,England,trunk-motorways,1911
+W92000004,Wales,trunk-motorways,88
+S92000003,Scotland,trunk-motorways,295
+K03000001,Great Britain,trunk-motorways,2294
+E12000001,North East,principle-motorways,2
+E12000002,North West,principle-motorways,14
+E12000003,Yorkshire and the Humber,principle-motorways,2
+E12000004,East Midlands,principle-motorways,0
+E12000005,West Midlands,principle-motorways,2
+E12000006,East of England,principle-motorways,0
+E12000007,London,principle-motorways,0
+E12000008,South East,principle-motorways,7
+E12000009,South West,principle-motorways,0
+E92000001,England,principle-motorways,27
+W92000004,Wales,principle-motorways,0
+S92000003,Scotland,principle-motorways,0
+K03000001,Great Britain,principle-motorways,27
+E12000001,North East,total-motorways,36
+E12000002,North West,total-motorways,408
+E12000003,Yorkshire and the Humber,total-motorways,277
+E12000004,East Midlands,total-motorways,124
+E12000005,West Midlands,total-motorways,277
+E12000006,East of England,total-motorways,165
+E12000007,London,total-motorways,37
+E12000008,South East,total-motorways,410
+E12000009,South West,total-motorways,204
+E92000001,England,total-motorways,1938
+W92000004,Wales,total-motorways,88
+S92000003,Scotland,total-motorways,295
+K03000001,Great Britain,total-motorways,2321
+E12000001,North East,trunk-rural-a-roads,200
+E12000002,North West,trunk-rural-a-roads,166
+E12000003,Yorkshire and the Humber,trunk-rural-a-roads,150
+E12000004,East Midlands,trunk-rural-a-roads,363
+E12000005,West Midlands,trunk-rural-a-roads,255
+E12000006,East of England,trunk-rural-a-roads,468
+E12000007,London,trunk-rural-a-roads,1
+E12000008,South East,trunk-rural-a-roads,395
+E12000009,South West,trunk-rural-a-roads,446
+E92000001,England,trunk-rural-a-roads,2443
+W92000004,Wales,trunk-rural-a-roads,924
+S92000003,Scotland,trunk-rural-a-roads,1659
+K03000001,Great Britain,trunk-rural-a-roads,5026
+E12000001,North East,principal-rural-a-roads,646
+E12000002,North West,principal-rural-a-roads,1338
+E12000003,Yorkshire and the Humber,principal-rural-a-roads,1336
+E12000004,East Midlands,principal-rural-a-roads,1646
+E12000005,West Midlands,principal-rural-a-roads,1334
+E12000006,East of England,principal-rural-a-roads,1525
+E12000007,London,principal-rural-a-roads,78
+E12000008,South East,principal-rural-a-roads,2026
+E12000009,South West,principal-rural-a-roads,2206
+E92000001,England,principal-rural-a-roads,12134
+W92000004,Wales,principal-rural-a-roads,1378
+S92000003,Scotland,principal-rural-a-roads,3742
+K03000001,Great Britain,principal-rural-a-roads,17253
+E12000001,North East,total-rural-a-roads,846
+E12000002,North West,total-rural-a-roads,1503
+E12000003,Yorkshire and the Humber,total-rural-a-roads,1486
+E12000004,East Midlands,total-rural-a-roads,2009
+E12000005,West Midlands,total-rural-a-roads,1588
+E12000006,East of England,total-rural-a-roads,1993
+E12000007,London,total-rural-a-roads,79
+E12000008,South East,total-rural-a-roads,2421
+E12000009,South West,total-rural-a-roads,2652
+E92000001,England,total-rural-a-roads,14576
+W92000004,Wales,total-rural-a-roads,2302
+S92000003,Scotland,total-rural-a-roads,5401
+K03000001,Great Britain,total-rural-a-roads,22280
+E12000001,North East,trunk-urban-a-roads,19
+E12000002,North West,trunk-urban-a-roads,22
+E12000003,Yorkshire and the Humber,trunk-urban-a-roads,13
+E12000004,East Midlands,trunk-urban-a-roads,22
+E12000005,West Midlands,trunk-urban-a-roads,28
+E12000006,East of England,trunk-urban-a-roads,28
+E12000007,London,trunk-urban-a-roads,0
+E12000008,South East,trunk-urban-a-roads,37
+E12000009,South West,trunk-urban-a-roads,19
+E92000001,England,trunk-urban-a-roads,188
+W92000004,Wales,trunk-urban-a-roads,40
+S92000003,Scotland,trunk-urban-a-roads,176
+K03000001,Great Britain,trunk-urban-a-roads,405
+E12000001,North East,principal-urban-a-roads,259
+E12000002,North West,principal-urban-a-roads,1017
+E12000003,Yorkshire and the Humber,principal-urban-a-roads,615
+E12000004,East Midlands,principal-urban-a-roads,420
+E12000005,West Midlands,principal-urban-a-roads,634
+E12000006,East of England,principal-urban-a-roads,470
+E12000007,London,principal-urban-a-roads,1010
+E12000008,South East,principal-urban-a-roads,841
+E12000009,South West,principal-urban-a-roads,438
+E92000001,England,principal-urban-a-roads,5704
+W92000004,Wales,principal-urban-a-roads,289
+S92000003,Scotland,principal-urban-a-roads,860
+K03000001,Great Britain,principal-urban-a-roads,6853
+E12000001,North East,total-urban-a-roads,278
+E12000002,North West,total-urban-a-roads,1039
+E12000003,Yorkshire and the Humber,total-urban-a-roads,629
+E12000004,East Midlands,total-urban-a-roads,442
+E12000005,West Midlands,total-urban-a-roads,662
+E12000006,East of England,total-urban-a-roads,498
+E12000007,London,total-urban-a-roads,1010
+E12000008,South East,total-urban-a-roads,878
+E12000009,South West,total-urban-a-roads,457
+E92000001,England,total-urban-a-roads,5892
+W92000004,Wales,total-urban-a-roads,329
+S92000003,Scotland,total-urban-a-roads,1036
+K03000001,Great Britain,total-urban-a-roads,7258
+E12000001,North East,total-all-major-roads,1159
+E12000002,North West,total-all-major-roads,2950
+E12000003,Yorkshire and the Humber,total-all-major-roads,2391
+E12000004,East Midlands,total-all-major-roads,2575
+E12000005,West Midlands,total-all-major-roads,2527
+E12000006,East of England,total-all-major-roads,2656
+E12000007,London,total-all-major-roads,1126
+E12000008,South East,total-all-major-roads,3710
+E12000009,South West,total-all-major-roads,3312
+E92000001,England,total-all-major-roads,22407
+W92000004,Wales,total-all-major-roads,2720
+S92000003,Scotland,total-all-major-roads,6732
+K03000001,Great Britain,total-all-major-roads,31859
+E12000001,North East,rural-b-roads,675
+E12000002,North West,rural-b-roads,784
+E12000003,Yorkshire and the Humber,rural-b-roads,893
+E12000004,East Midlands,rural-b-roads,997
+E12000005,West Midlands,rural-b-roads,1168
+E12000006,East of England,rural-b-roads,1788
+E12000007,London,rural-b-roads,16
+E12000008,South East,rural-b-roads,1425
+E12000009,South West,rural-b-roads,1741
+E92000001,England,rural-b-roads,9488
+W92000004,Wales,rural-b-roads,1653
+S92000003,Scotland,rural-b-roads,3949
+K03000001,Great Britain,rural-b-roads,15091
+E12000001,North East,rural-c-and-u-roads,4016
+E12000002,North West,rural-c-and-u-roads,7634
+E12000003,Yorkshire and the Humber,rural-c-and-u-roads,8447
+E12000004,East Midlands,rural-c-and-u-roads,10268
+E12000005,West Midlands,rural-c-and-u-roads,8964
+E12000006,East of England,rural-c-and-u-roads,13536
+E12000007,London,rural-c-and-u-roads,197
+E12000008,South East,rural-c-and-u-roads,13283
+E12000009,South West,rural-c-and-u-roads,19431
+E92000001,England,rural-c-and-u-roads,85776
+W92000004,Wales,rural-c-and-u-roads,12413
+S92000003,Scotland,rural-c-and-u-roads,14702
+K03000001,Great Britain,rural-c-and-u-roads,112891
+E12000001,North East,total-rural-minor-roads,4691
+E12000002,North West,total-rural-minor-roads,8418
+E12000003,Yorkshire and the Humber,total-rural-minor-roads,9340
+E12000004,East Midlands,total-rural-minor-roads,11266
+E12000005,West Midlands,total-rural-minor-roads,10132
+E12000006,East of England,total-rural-minor-roads,15323
+E12000007,London,total-rural-minor-roads,214
+E12000008,South East,total-rural-minor-roads,14708
+E12000009,South West,total-rural-minor-roads,21173
+E92000001,England,total-rural-minor-roads,95264
+W92000004,Wales,total-rural-minor-roads,14066
+S92000003,Scotland,total-rural-minor-roads,18651
+K03000001,Great Britain,total-rural-minor-roads,127981
+E12000001,North East,urban-b-roads,160
+E12000002,North West,urban-b-roads,475
+E12000003,Yorkshire and the Humber,urban-b-roads,297
+E12000004,East Midlands,urban-b-roads,241
+E12000005,West Midlands,urban-b-roads,398
+E12000006,East of England,urban-b-roads,278
+E12000007,London,urban-b-roads,298
+E12000008,South East,urban-b-roads,486
+E12000009,South West,urban-b-roads,304
+E92000001,England,urban-b-roads,2936
+W92000004,Wales,urban-b-roads,219
+S92000003,Scotland,urban-b-roads,606
+K03000001,Great Britain,urban-b-roads,3761
+E12000001,North East,urban-c-and-u-roads,4218
+E12000002,North West,urban-c-and-u-roads,11400
+E12000003,Yorkshire and the Humber,urban-c-and-u-roads,7933
+E12000004,East Midlands,urban-c-and-u-roads,5773
+E12000005,West Midlands,urban-c-and-u-roads,7731
+E12000006,East of England,urban-c-and-u-roads,6780
+E12000007,London,urban-c-and-u-roads,7564
+E12000008,South East,urban-c-and-u-roads,11344
+E12000009,South West,urban-c-and-u-roads,6632
+E92000001,England,urban-c-and-u-roads,69375
+W92000004,Wales,urban-c-and-u-roads,4016
+S92000003,Scotland,urban-c-and-u-roads,10835
+K03000001,Great Britain,urban-c-and-u-roads,84226
+E12000001,North East,total-urban-minor-roads,4378
+E12000002,North West,total-urban-minor-roads,11875
+E12000003,Yorkshire and the Humber,total-urban-minor-roads,8230
+E12000004,East Midlands,total-urban-minor-roads,6014
+E12000005,West Midlands,total-urban-minor-roads,8128
+E12000006,East of England,total-urban-minor-roads,7058
+E12000007,London,total-urban-minor-roads,7862
+E12000008,South East,total-urban-minor-roads,11830
+E12000009,South West,total-urban-minor-roads,6936
+E92000001,England,total-urban-minor-roads,72311
+W92000004,Wales,total-urban-minor-roads,4235
+S92000003,Scotland,total-urban-minor-roads,11440
+K03000001,Great Britain,total-urban-minor-roads,87987
+E12000001,North East,total-all-minor-roads,9069
+E12000002,North West,total-all-minor-roads,20292
+E12000003,Yorkshire and the Humber,total-all-minor-roads,17569
+E12000004,East Midlands,total-all-minor-roads,17280
+E12000005,West Midlands,total-all-minor-roads,18260
+E12000006,East of England,total-all-minor-roads,22382
+E12000007,London,total-all-minor-roads,8076
+E12000008,South East,total-all-minor-roads,26538
+E12000009,South West,total-all-minor-roads,28108
+E92000001,England,total-all-minor-roads,167575
+W92000004,Wales,total-all-minor-roads,18302
+S92000003,Scotland,total-all-minor-roads,30092
+K03000001,Great Britain,total-all-minor-roads,215968
+E12000001,North East,total-all-roads-in-great-britain,10228
+E12000002,North West,total-all-roads-in-great-britain,23242
+E12000003,Yorkshire and the Humber,total-all-roads-in-great-britain,19961
+E12000004,East Midlands,total-all-roads-in-great-britain,19855
+E12000005,West Midlands,total-all-roads-in-great-britain,20788
+E12000006,East of England,total-all-roads-in-great-britain,25038
+E12000007,London,total-all-roads-in-great-britain,9201
+E12000008,South East,total-all-roads-in-great-britain,30248
+E12000009,South West,total-all-roads-in-great-britain,31420
+E92000001,England,total-all-roads-in-great-britain,189981
+W92000004,Wales,total-all-roads-in-great-britain,21022
+S92000003,Scotland,total-all-roads-in-great-britain,36824
+K03000001,Great Britain,total-all-roads-in-great-britain,247827

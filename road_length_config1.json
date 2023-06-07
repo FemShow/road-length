@@ -1,0 +1,161 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Road lengths (miles) by road type, region and county in Great Britain 2021",
+    "description": "Total length of roads (miles) by road type, region and county in Great Britain.",
+    "creator": "https://www.gov.uk/government/organisations/department-for-transport",
+    "publisher": "https://www.gov.uk/government/organisations/department-for-transport",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+      "Roads",
+      "Motorways",
+      "Trunk Roads",
+      "Rural Roads",
+      "Urban Roads",
+      "Minor Roads",
+      "A Roads",
+      "B Roads",
+      "C Roads",
+      "U Roads"
+    ],
+    "columns": {
+      "ONS Area Code": {
+        "from_template": "statistical-geography"
+      },
+      "Region": false,
+      "Road Type": {
+        "type": "dimension",
+        "code_list": {
+          "title": "All roads",
+          "summary": "Total length of road (miles) by road type, region and county in Great Britain.",
+          "concepts": [
+            {
+              "label": "Total  all roads",
+              "notation": "Total  all roads in Great Britain",
+              "sort_order": 0,
+              "children": [
+                {
+                  "label": "Total all major roads",
+                  "description": "Total length of all major roads",
+                  "notation": "Total all major roads",
+                  "sort_order": 0,
+                  "children": [
+                    {
+                      "label": "Total Motorways",
+                      "description": "Total length of motorways",
+                      "notation": "Total Motorways",
+                      "sort_order": 0,
+                      "children": [
+                        {
+                          "label": "Trunk Motorways",
+                          "description": "Length of trunk motorways",
+                          "notation": "Trunk Motorways"
+                        },
+                        {
+                          "label": "Principle Motorways",
+                          "description": "Length of trunk motorways",
+                          "notation": "Principle Motorways"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Total rural 'A' roads",
+                      "description": "Total length of rural 'A' roads",
+                      "notation": "Total rural 'A' roads",
+                      "sort_order": 0,
+                      "children": [
+                        {
+                          "label": "Trunk rural 'A' roads",
+                          "description": "Length of trunk rural 'A' roads",
+                          "notation": "Trunk rural 'A' roads"
+                        },
+                        {
+                          "label": "Principal rural 'A' roads",
+                          "description": "Length of principal rural 'A' roads",
+                          "notation": "Principal rural 'A' roads"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Total urban 'A' roads",
+                      "description": "Total length of trunk urban 'A' roads",
+                      "notation": "Total urban 'A' roads",
+                      "sort_order": 0,
+                      "children": [
+                        {
+                          "label": "Trunk urban 'A' roads",
+                          "description": "Length of trunk urban 'A' roads",
+                          "notation": "Trunk urban 'A' roads"
+                        },
+                        {
+                          "label": "Principal urban 'A' roads",
+                          "description": "Length of principal urban 'A' roads",
+                          "notation": "Principal urban 'A' roads"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Total all minor roads",
+                      "description": "Total length of all minor roads",
+                      "notation": "Total all minor roads",
+                      "sort_order": 0,
+                      "children": [
+                        {
+                          "label": "Total rural minor roads",
+                          "description": "Total length of rural minor roads",
+                          "notation": "Total rural minor roads",
+                          "sort_order": 0,
+                          "children": [
+                            {
+                              "label": "Rural 'B' roads",
+                              "description": "Length of rural 'B' roads",
+                              "notation": "Rural 'B' roads"
+                            },
+                            {
+                              "label": "Rural 'C' and 'U' roads",
+                              "description": "Length of Rural 'C' and 'U' roads",
+                              "notation": "Rural 'C' and 'U' roads"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Total urban minor roads",
+                          "description": "Total length of urban minor roads",
+                          "notation": "Total urban minor roads",
+                          "sort_order": 0,
+                          "children": [
+                            {
+                              "label": "Urban 'B' roads",
+                              "description": "Length of urban 'B' roads",
+                              "notation": "Urban 'B' roads"
+                            },
+                            {
+                              "label": "Urban 'C' and 'U' roads",
+                              "description": "Length of Urban 'C' and 'U' roads",
+                              "notation": "Urban 'C' and 'U' roads"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "Road Length": {
+        "type": "observations",
+        "measure": {
+          "label": "Length of roads in miles by road type, region, and county",
+          "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+        },
+        "data_type": "integer",
+        "unit": {
+          "label": "Number",
+          "from_existing": "http://qudt.org/vocab/unit/NUM"
+        }
+      }
+    }
+  }
+  
