@@ -1,0 +1,235 @@
+ONS Area Code,Region,Road Type,Road Length
+E12000001,North East,Trunk Motorways,35
+E12000002,North West,Trunk Motorways,394
+E12000003,Yorkshire and the Humber,Trunk Motorways,274
+E12000004,East Midlands,Trunk Motorways,124
+E12000005,West Midlands,Trunk Motorways,274
+E12000006,East of England,Trunk Motorways,165
+E12000007,London,Trunk Motorways,37
+E12000008,South East,Trunk Motorways,404
+E12000009,South West,Trunk Motorways,204
+E92000001,England,Trunk Motorways,1911
+W92000004,Wales,Trunk Motorways,88
+S92000003,Scotland,Trunk Motorways,295
+K03000001,Great Britain,Trunk Motorways,2294
+E12000001,North East,Principle Motorways,2
+E12000002,North West,Principle Motorways,14
+E12000003,Yorkshire and the Humber,Principle Motorways,2
+E12000004,East Midlands,Principle Motorways,0
+E12000005,West Midlands,Principle Motorways,2
+E12000006,East of England,Principle Motorways,0
+E12000007,London,Principle Motorways,0
+E12000008,South East,Principle Motorways,7
+E12000009,South West,Principle Motorways,0
+E92000001,England,Principle Motorways,27
+W92000004,Wales,Principle Motorways,0
+S92000003,Scotland,Principle Motorways,0
+K03000001,Great Britain,Principle Motorways,27
+E12000001,North East,Total Motorways,36
+E12000002,North West,Total Motorways,408
+E12000003,Yorkshire and the Humber,Total Motorways,277
+E12000004,East Midlands,Total Motorways,124
+E12000005,West Midlands,Total Motorways,277
+E12000006,East of England,Total Motorways,165
+E12000007,London,Total Motorways,37
+E12000008,South East,Total Motorways,410
+E12000009,South West,Total Motorways,204
+E92000001,England,Total Motorways,1938
+W92000004,Wales,Total Motorways,88
+S92000003,Scotland,Total Motorways,295
+K03000001,Great Britain,Total Motorways,2321
+E12000001,North East,Trunk rural 'A' roads,200
+E12000002,North West,Trunk rural 'A' roads,166
+E12000003,Yorkshire and the Humber,Trunk rural 'A' roads,150
+E12000004,East Midlands,Trunk rural 'A' roads,363
+E12000005,West Midlands,Trunk rural 'A' roads,255
+E12000006,East of England,Trunk rural 'A' roads,468
+E12000007,London,Trunk rural 'A' roads,1
+E12000008,South East,Trunk rural 'A' roads,395
+E12000009,South West,Trunk rural 'A' roads,446
+E92000001,England,Trunk rural 'A' roads,2443
+W92000004,Wales,Trunk rural 'A' roads,924
+S92000003,Scotland,Trunk rural 'A' roads,1659
+K03000001,Great Britain,Trunk rural 'A' roads,5026
+E12000001,North East,Principal rural 'A' roads,646
+E12000002,North West,Principal rural 'A' roads,1338
+E12000003,Yorkshire and the Humber,Principal rural 'A' roads,1336
+E12000004,East Midlands,Principal rural 'A' roads,1646
+E12000005,West Midlands,Principal rural 'A' roads,1334
+E12000006,East of England,Principal rural 'A' roads,1525
+E12000007,London,Principal rural 'A' roads,78
+E12000008,South East,Principal rural 'A' roads,2026
+E12000009,South West,Principal rural 'A' roads,2206
+E92000001,England,Principal rural 'A' roads,12134
+W92000004,Wales,Principal rural 'A' roads,1378
+S92000003,Scotland,Principal rural 'A' roads,3742
+K03000001,Great Britain,Principal rural 'A' roads,17253
+E12000001,North East,Total rural 'A' roads,846
+E12000002,North West,Total rural 'A' roads,1503
+E12000003,Yorkshire and the Humber,Total rural 'A' roads,1486
+E12000004,East Midlands,Total rural 'A' roads,2009
+E12000005,West Midlands,Total rural 'A' roads,1588
+E12000006,East of England,Total rural 'A' roads,1993
+E12000007,London,Total rural 'A' roads,79
+E12000008,South East,Total rural 'A' roads,2421
+E12000009,South West,Total rural 'A' roads,2652
+E92000001,England,Total rural 'A' roads,14576
+W92000004,Wales,Total rural 'A' roads,2302
+S92000003,Scotland,Total rural 'A' roads,5401
+K03000001,Great Britain,Total rural 'A' roads,22280
+E12000001,North East,Trunk urban 'A' roads,19
+E12000002,North West,Trunk urban 'A' roads,22
+E12000003,Yorkshire and the Humber,Trunk urban 'A' roads,13
+E12000004,East Midlands,Trunk urban 'A' roads,22
+E12000005,West Midlands,Trunk urban 'A' roads,28
+E12000006,East of England,Trunk urban 'A' roads,28
+E12000007,London,Trunk urban 'A' roads,0
+E12000008,South East,Trunk urban 'A' roads,37
+E12000009,South West,Trunk urban 'A' roads,19
+E92000001,England,Trunk urban 'A' roads,188
+W92000004,Wales,Trunk urban 'A' roads,40
+S92000003,Scotland,Trunk urban 'A' roads,176
+K03000001,Great Britain,Trunk urban 'A' roads,405
+E12000001,North East,Principal urban 'A' roads,259
+E12000002,North West,Principal urban 'A' roads,1017
+E12000003,Yorkshire and the Humber,Principal urban 'A' roads,615
+E12000004,East Midlands,Principal urban 'A' roads,420
+E12000005,West Midlands,Principal urban 'A' roads,634
+E12000006,East of England,Principal urban 'A' roads,470
+E12000007,London,Principal urban 'A' roads,1010
+E12000008,South East,Principal urban 'A' roads,841
+E12000009,South West,Principal urban 'A' roads,438
+E92000001,England,Principal urban 'A' roads,5704
+W92000004,Wales,Principal urban 'A' roads,289
+S92000003,Scotland,Principal urban 'A' roads,860
+K03000001,Great Britain,Principal urban 'A' roads,6853
+E12000001,North East,Total urban 'A' roads,278
+E12000002,North West,Total urban 'A' roads,1039
+E12000003,Yorkshire and the Humber,Total urban 'A' roads,629
+E12000004,East Midlands,Total urban 'A' roads,442
+E12000005,West Midlands,Total urban 'A' roads,662
+E12000006,East of England,Total urban 'A' roads,498
+E12000007,London,Total urban 'A' roads,1010
+E12000008,South East,Total urban 'A' roads,878
+E12000009,South West,Total urban 'A' roads,457
+E92000001,England,Total urban 'A' roads,5892
+W92000004,Wales,Total urban 'A' roads,329
+S92000003,Scotland,Total urban 'A' roads,1036
+K03000001,Great Britain,Total urban 'A' roads,7258
+E12000001,North East,Total all major roads,1159
+E12000002,North West,Total all major roads,2950
+E12000003,Yorkshire and the Humber,Total all major roads,2391
+E12000004,East Midlands,Total all major roads,2575
+E12000005,West Midlands,Total all major roads,2527
+E12000006,East of England,Total all major roads,2656
+E12000007,London,Total all major roads,1126
+E12000008,South East,Total all major roads,3710
+E12000009,South West,Total all major roads,3312
+E92000001,England,Total all major roads,22407
+W92000004,Wales,Total all major roads,2720
+S92000003,Scotland,Total all major roads,6732
+K03000001,Great Britain,Total all major roads,31859
+E12000001,North East,Rural 'B' roads,675
+E12000002,North West,Rural 'B' roads,784
+E12000003,Yorkshire and the Humber,Rural 'B' roads,893
+E12000004,East Midlands,Rural 'B' roads,997
+E12000005,West Midlands,Rural 'B' roads,1168
+E12000006,East of England,Rural 'B' roads,1788
+E12000007,London,Rural 'B' roads,16
+E12000008,South East,Rural 'B' roads,1425
+E12000009,South West,Rural 'B' roads,1741
+E92000001,England,Rural 'B' roads,9488
+W92000004,Wales,Rural 'B' roads,1653
+S92000003,Scotland,Rural 'B' roads,3949
+K03000001,Great Britain,Rural 'B' roads,15091
+E12000001,North East,Rural 'C' and 'U' roads,4016
+E12000002,North West,Rural 'C' and 'U' roads,7634
+E12000003,Yorkshire and the Humber,Rural 'C' and 'U' roads,8447
+E12000004,East Midlands,Rural 'C' and 'U' roads,10268
+E12000005,West Midlands,Rural 'C' and 'U' roads,8964
+E12000006,East of England,Rural 'C' and 'U' roads,13536
+E12000007,London,Rural 'C' and 'U' roads,197
+E12000008,South East,Rural 'C' and 'U' roads,13283
+E12000009,South West,Rural 'C' and 'U' roads,19431
+E92000001,England,Rural 'C' and 'U' roads,85776
+W92000004,Wales,Rural 'C' and 'U' roads,12413
+S92000003,Scotland,Rural 'C' and 'U' roads,14702
+K03000001,Great Britain,Rural 'C' and 'U' roads,112891
+E12000001,North East,Total rural minor roads,4691
+E12000002,North West,Total rural minor roads,8418
+E12000003,Yorkshire and the Humber,Total rural minor roads,9340
+E12000004,East Midlands,Total rural minor roads,11266
+E12000005,West Midlands,Total rural minor roads,10132
+E12000006,East of England,Total rural minor roads,15323
+E12000007,London,Total rural minor roads,214
+E12000008,South East,Total rural minor roads,14708
+E12000009,South West,Total rural minor roads,21173
+E92000001,England,Total rural minor roads,95264
+W92000004,Wales,Total rural minor roads,14066
+S92000003,Scotland,Total rural minor roads,18651
+K03000001,Great Britain,Total rural minor roads,127981
+E12000001,North East,Urban 'B' roads,160
+E12000002,North West,Urban 'B' roads,475
+E12000003,Yorkshire and the Humber,Urban 'B' roads,297
+E12000004,East Midlands,Urban 'B' roads,241
+E12000005,West Midlands,Urban 'B' roads,398
+E12000006,East of England,Urban 'B' roads,278
+E12000007,London,Urban 'B' roads,298
+E12000008,South East,Urban 'B' roads,486
+E12000009,South West,Urban 'B' roads,304
+E92000001,England,Urban 'B' roads,2936
+W92000004,Wales,Urban 'B' roads,219
+S92000003,Scotland,Urban 'B' roads,606
+K03000001,Great Britain,Urban 'B' roads,3761
+E12000001,North East,Urban 'C' and 'U' roads,4218
+E12000002,North West,Urban 'C' and 'U' roads,11400
+E12000003,Yorkshire and the Humber,Urban 'C' and 'U' roads,7933
+E12000004,East Midlands,Urban 'C' and 'U' roads,5773
+E12000005,West Midlands,Urban 'C' and 'U' roads,7731
+E12000006,East of England,Urban 'C' and 'U' roads,6780
+E12000007,London,Urban 'C' and 'U' roads,7564
+E12000008,South East,Urban 'C' and 'U' roads,11344
+E12000009,South West,Urban 'C' and 'U' roads,6632
+E92000001,England,Urban 'C' and 'U' roads,69375
+W92000004,Wales,Urban 'C' and 'U' roads,4016
+S92000003,Scotland,Urban 'C' and 'U' roads,10835
+K03000001,Great Britain,Urban 'C' and 'U' roads,84226
+E12000001,North East,Total urban minor roads,4378
+E12000002,North West,Total urban minor roads,11875
+E12000003,Yorkshire and the Humber,Total urban minor roads,8230
+E12000004,East Midlands,Total urban minor roads,6014
+E12000005,West Midlands,Total urban minor roads,8128
+E12000006,East of England,Total urban minor roads,7058
+E12000007,London,Total urban minor roads,7862
+E12000008,South East,Total urban minor roads,11830
+E12000009,South West,Total urban minor roads,6936
+E92000001,England,Total urban minor roads,72311
+W92000004,Wales,Total urban minor roads,4235
+S92000003,Scotland,Total urban minor roads,11440
+K03000001,Great Britain,Total urban minor roads,87987
+E12000001,North East,Total all minor roads,9069
+E12000002,North West,Total all minor roads,20292
+E12000003,Yorkshire and the Humber,Total all minor roads,17569
+E12000004,East Midlands,Total all minor roads,17280
+E12000005,West Midlands,Total all minor roads,18260
+E12000006,East of England,Total all minor roads,22382
+E12000007,London,Total all minor roads,8076
+E12000008,South East,Total all minor roads,26538
+E12000009,South West,Total all minor roads,28108
+E92000001,England,Total all minor roads,167575
+W92000004,Wales,Total all minor roads,18302
+S92000003,Scotland,Total all minor roads,30092
+K03000001,Great Britain,Total all minor roads,215968
+E12000001,North East,Total  all roads,10228
+E12000002,North West,Total  all roads,23242
+E12000003,Yorkshire and the Humber,Total  all roads,19961
+E12000004,East Midlands,Total  all roads,19855
+E12000005,West Midlands,Total  all roads,20788
+E12000006,East of England,Total  all roads,25038
+E12000007,London,Total  all roads,9201
+E12000008,South East,Total  all roads,30248
+E12000009,South West,Total  all roads,31420
+E92000001,England,Total  all roads,189981
+W92000004,Wales,Total  all roads,21022
+S92000003,Scotland,Total  all roads,36824
+K03000001,Great Britain,Total  all roads,247827
