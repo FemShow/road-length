@@ -1,0 +1,576 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dataset",
+    "tables": [
+        {
+            "url": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "titles": "ONS Area Code",
+                        "name": "ons_area_code",
+                        "propertyUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography",
+                        "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{+ons_area_code}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Region",
+                        "name": "region",
+                        "suppressOutput": true
+                    },
+                    {
+                        "titles": "Road Type",
+                        "name": "road_type",
+                        "propertyUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type",
+                        "valueUrl": "all-roads.csv#{+road_type}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Road Length",
+                        "name": "road_length",
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county",
+                        "datatype": "integer",
+                        "required": true
+                    },
+                    {
+                        "name": "virt_slice",
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Slice"
+                    },
+                    {
+                        "name": "virt_slice_structure",
+                        "virtual": true,
+                        "propertyUrl": "qb:sliceStructure",
+                        "valueUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#slice/cross-measures"
+                    },
+                    {
+                        "name": "virt_obs_road_length",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county"
+                    },
+                    {
+                        "name": "virt_obs_road_length_meas",
+                        "virtual": true,
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county"
+                    },
+                    {
+                        "name": "virt_obs_road_length_unit",
+                        "virtual": true,
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_road_length_ons_area_code",
+                        "virtual": true,
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography",
+                        "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{+ons_area_code}"
+                    },
+                    {
+                        "name": "virt_dim_road_length_road_type",
+                        "virtual": true,
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type",
+                        "valueUrl": "all-roads.csv#{+road_type}"
+                    },
+                    {
+                        "name": "virt_obs_road_length_type",
+                        "virtual": true,
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_road_length",
+                        "virtual": true,
+                        "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#obs/{ons_area_code},{road_type}@length-of-roads-in-miles-by-road-type-region-and-county",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dataset"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": "road_type",
+                        "reference": {
+                            "resource": "all-roads.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ons_area_code",
+                    "road_type"
+                ],
+                "aboutUrl": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#slice/{ons_area_code},{road_type}"
+            }
+        },
+        {
+            "url": "all-roads.csv",
+            "tableSchema": "all-roads.table.json",
+            "suppressOutput": true
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Length of roads in miles by road type, region, and county"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/road-type"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/length-of-roads-in-miles-by-road-type-region-and-county"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/unit"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/measure-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#class/statistical-geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "all-roads.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Road Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#class/road-type"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#class/road-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/length-of-roads-in-miles-by-road-type-region-and-county",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dataset",
+            "@type": [
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#DataSet"
+            ],
+            "http://purl.org/dc/terms/creator": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/department-for-transport"
+                }
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "Total length of roads (miles) by road type, region and county in Great Britain."
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Road lengths (miles) by road type, region and county in Great Britain 2021"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-06-07T15:08:31.797199"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-06-07T15:08:31.797199"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/department-for-transport"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Road lengths (miles) by road type, region and county in Great Britain 2021"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Road lengths (miles) by road type, region and county in Great Britain 2021"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "en",
+                    "@value": "Rural Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Urban Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "A Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "C Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Motorways"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Minor Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "B Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Trunk Roads"
+                },
+                {
+                    "@language": "en",
+                    "@value": "U Roads"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#theme": [
+                {
+                    "@id": "https://www.gov.uk/government/statistical-data-sets/road-length-statistics-rdl"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#component/road-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dependency/all-roads",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./all-roads.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "all-roads.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#unit/number",
+            "@type": [
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://qudt.org/schema/qudt/isScalingOf": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/NUM"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#float",
+                    "@value": "1.0"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/NUM"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/NUM"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Number"
+                }
+            ]
+        }
+    ]
+}

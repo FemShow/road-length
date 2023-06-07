@@ -1,0 +1,19 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+total-all-roads-in-great-britain,Total  all roads,Total  all roads in Great Britain,,0,
+total-all-major-roads,Total all major roads,Total all major roads,total-all-roads-in-great-britain,0,Total length of all major roads
+total-motorways,Total Motorways,Total Motorways,total-all-major-roads,0,Total length of motorways
+total-rural-a-roads,Total rural 'A' roads,Total rural 'A' roads,total-all-major-roads,0,Total length of rural 'A' roads
+total-urban-a-roads,Total urban 'A' roads,Total urban 'A' roads,total-all-major-roads,0,Total length of trunk urban 'A' roads
+total-all-minor-roads,Total all minor roads,Total all minor roads,total-all-major-roads,0,Total length of all minor roads
+trunk-motorways,Trunk Motorways,Trunk Motorways,total-motorways,0,Length of trunk motorways
+principle-motorways,Principle Motorways,Principle Motorways,total-motorways,1,Length of trunk motorways
+trunk-rural-a-roads,Trunk rural 'A' roads,Trunk rural 'A' roads,total-rural-a-roads,0,Length of trunk rural 'A' roads
+principal-rural-a-roads,Principal rural 'A' roads,Principal rural 'A' roads,total-rural-a-roads,1,Length of principal rural 'A' roads
+trunk-urban-a-roads,Trunk urban 'A' roads,Trunk urban 'A' roads,total-urban-a-roads,0,Length of trunk urban 'A' roads
+principal-urban-a-roads,Principal urban 'A' roads,Principal urban 'A' roads,total-urban-a-roads,1,Length of principal urban 'A' roads
+total-rural-minor-roads,Total rural minor roads,Total rural minor roads,total-all-minor-roads,0,Total length of rural minor roads
+total-urban-minor-roads,Total urban minor roads,Total urban minor roads,total-all-minor-roads,0,Total length of urban minor roads
+rural-b-roads,Rural 'B' roads,Rural 'B' roads,total-rural-minor-roads,0,Length of rural 'B' roads
+rural-c-and-u-roads,Rural 'C' and 'U' roads,Rural 'C' and 'U' roads,total-rural-minor-roads,1,Length of Rural 'C' and 'U' roads
+urban-b-roads,Urban 'B' roads,Urban 'B' roads,total-urban-minor-roads,0,Length of urban 'B' roads
+urban-c-and-u-roads,Urban 'C' and 'U' roads,Urban 'C' and 'U' roads,total-urban-minor-roads,1,Length of Urban 'C' and 'U' roads
