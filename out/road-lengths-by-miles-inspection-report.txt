@@ -1,0 +1,81 @@
+﻿- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Road lengths (miles) by road type, region and county in Great Britain 2021
+          - Label: Road lengths (miles) by road type, region and county in Great Britain 2021
+          - Issued: 2023-06-07T02:09:02.009109
+          - Modified: 2023-06-07T02:09:02.009109
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-transport
+          - Publisher: https://www.gov.uk/government/organisations/department-for-transport
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: 
+                -- U Roads
+                -- Roads
+                -- Urban Roads
+                -- Rural Roads
+                -- C Roads
+                -- Minor Roads
+                -- Trunk Roads
+                -- B Roads
+                -- A Roads
+                -- Motorways
+          - Contact Point: None
+          - Identifier: Road lengths (miles) by road type, region and county in Great Britain 2021
+          - Comment: None
+          - Description: Total length of roads (miles) by road type, region and county in Great Britain.
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Road lengths (miles) by road type, region and county in Great Britain 2021
+    - Columns: 
+            Title         Type  Required                                                                                                                                Property URL Observations Column Titles
+    ONS Area Code    Dimension      True                                 road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/statistical-geography                Road Length
+           Region   Suppressed     False                                                                                                                                        None                           
+        Road Type    Dimension      True                                             road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#dimension/road-type                Road Length
+      Road Length Observations      True road-lengths-miles-by-road-type-region-and-county-in-great-britain-2021.csv#measure/length-of-roads-in-miles-by-road-type-region-and-county                Road Length
+    - Columns where suppress output is true: 
+                -- Region
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 1
+        - Code Lists:
+              Code List Code List Label Columns Used In
+all-roads.csv#code-list       All roads       Road Type
+
+- The data cube has the following dataset information:
+        - Number of Rows: 234
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+ONS Area Code                   Region       Road Type  Road Length
+    E12000001               North East trunk-motorways           35
+    E12000002               North West trunk-motorways          394
+    E12000003 Yorkshire and the Humber trunk-motorways          274
+    E12000004            East Midlands trunk-motorways          124
+    E12000005            West Midlands trunk-motorways          274
+    E12000006          East of England trunk-motorways          165
+    E12000007                   London trunk-motorways           37
+    E12000008               South East trunk-motorways          404
+    E12000009               South West trunk-motorways          204
+    E92000001                  England trunk-motorways         1911
+        - Last 10 Rows: 
+ONS Area Code          Region                        Road Type  Road Length
+    E12000004   East Midlands total-all-roads-in-great-britain        19855
+    E12000005   West Midlands total-all-roads-in-great-britain        20788
+    E12000006 East of England total-all-roads-in-great-britain        25038
+    E12000007          London total-all-roads-in-great-britain         9201
+    E12000008      South East total-all-roads-in-great-britain        30248
+    E12000009      South West total-all-roads-in-great-britain        31420
+    E92000001         England total-all-roads-in-great-britain       189981
+    W92000004           Wales total-all-roads-in-great-britain        21022
+    S92000003        Scotland total-all-roads-in-great-britain        36824
+    K03000001   Great Britain total-all-roads-in-great-britain       247827
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                                                  Measure   Unit  Count
+Length of roads in miles by road type, region, and county Number    234
+        
